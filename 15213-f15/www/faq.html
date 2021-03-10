@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>15-213 Intro to Computer Systems: FAQ</TITLE>
+<!-- Changed by: Hunter Pitelka - Spring 2009 -->
+<META name="description" content="Introduction to Computer Systems; Frequently
+Asked Questions">
+<META name="keywords" content="Introduction to Computer Systems">
+<LINK REL="stylesheet" HREF="course.css" TYPE="text/css">
+</HEAD>
+<BODY MARGINWIDTH=0 MARGINHEIGHT=0>
+<TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=10>
+<TR>
+<TD CLASS="sidebar">&nbsp;</TD>
+<TD CLASS="main">&nbsp;</TD>
+<TD CLASS="main">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="sidebar" VALIGN="top">
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>
+  <TR><TD CLASS="menu"><A HREF="index.html">Home</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="schedule.html">Schedule</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="assignments.html">Assignments</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="exams.html">Exams</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="labmachines.html">Lab&nbsp;Machines</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="resources.html">Resources</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="codeStyle.html">Style Guideline</A></TD></TR>
+  <TR><TD CLASS="menu"><B CLASS="here">FAQ</B></TD></TR>
+  <TR><TD>&nbsp;</TD></TR>
+  <TR><TD CLASS="menu"><A HREF="http://csapp.cs.cmu.edu/">Textbook</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="https://autolab.cs.cmu.edu">Autolab</A></TD></TR>
+  <TR><TD CLASS="menu" ALIGN="left"></TD></TR>
+  <TR><TD CLASS="menu" ALIGN="left"></TD></TR>
+</TABLE>
+</TD>
+<TD CLASS="main">&nbsp;</TD>
+<TD CLASS="main" VALIGN="top">
+<H1>15-213 Intro to Computer Systems: Frequently Asked Questions</H1>
+<style type='text/css'>
+.answer{
+	width:50%;
+	text-indent:10px;
+	margin-top:0px;
+	padding-top:0px;
+}
+.list{
+	margin-top:-20px;
+	padding-top:-20px;
+}
+</style>
+
+<!-- Copy and paste this to make a new question:
+<li><b>Question goes here</b>
+	<p class='answer'>Answer goes here</p>
+</li>
+-->
+
+<table width=700><tr><td>
+<ul>
+
+<!-- ****** FAQ questions start here *********** -->
+
+<h2><font color=red>Getting Help</font></h2>
+
+    <li>
+        <b>Should I read the lab writeup before seeking help?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>Yes.
+                <li>Did we say, "Yes"?
+                <li>Yes, we did.
+                <li>Please read the lab writeups.
+                <li>:-)
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>How can I get help?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>Email us at <a href='mailto:15-213-staff@cs.cmu.edu'>15-213-staff@cs.cmu.edu</a>.
+                <li>Stop by during office hours, Sun-Thu (and Fridays following Thur due dates), 6-9, WeH 5207
+                <li>There is also walk-in tutoring for 213 students on Mondays and Wednesdays, 8:30-11:00pm,
+                  Mudge Reading Room.
+                <li>Schedule a 1:1 meeting with your instructors or TAs.
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>I have some command line output that I'd like to send to the staff. Should I send it as a screenshot? </b>
+        <p class='answer'>
+            <ul class='list'>
+                <li> No. Text (copy and paste) is fine.
+            </ul>
+        </p>
+    </li>
+
+<h2><font color=red>General Programming Issues</font></h2>
+
+    <li>
+        <b>My code looked fine in my editor, but when my TA graded it on Autolab the indenting was all wrong and I lost points. What gives?</b>
+        <p class='answer'>
+            <ul class='list'>
+              <li> After you handin your code, always view it in
+                Autolab to make sure that the indenting is what you
+                expect. If it's not, then there are two possible
+                reasons: (1) Your editor is configured to indent tabs a
+                certain width. (2) You've mixed tabs and spaces in
+                your code.
+                  <li> In either case, you shoule use spaces instead of tabs. To replace
+                  all tabs with spaces, run <pre>expand -t4 foo.c > bar.c </pre>
+            </ol>
+        </p>
+    </li>
+    </ul>
+
+
+    <li>
+        <b>When I try to run an executable file included in a lab handout, I get a "Permission denied" error.  What should I do?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>The Linux executable bit is not set.  Run "chmod +x &#060;filename&#062;" to set the executable bit.
+                <li>This problem may occur if you extract the handout tarball on a Windows machine.  Always extract the handout on a Linux machine.
+            </ul>
+        </p>
+    </li>
+
+	<li>
+        <b>How do I extract a tarball on a Linux machine?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>Run "tar -xvf &#060;filename&#062;" to extract it.
+            </ul>
+        </p>
+    </li>
+
+<h2><font color=red>General Course Issues</font></h2>
+
+    <li>
+        <b>Why can't I access the course on Autolab?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>You don't have an Autolab account for this course
+                  yet. Autolab accounts are not tied directly to the
+                  Hub like Blackboard accounts.
+                <li>Email the staff list 15-213-staff@cs.cmu.edu if
+                you need an account created for you. You must be enrolled in the course in order to get an Autolab account.
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>Why can't I access the shark machines?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>You should be able to access the shark machines with your Andrew credentials. Email the staff list 15-213-staff@cs.cmu.edu if you have trouble.
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>Must I work on the shark machines?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>Your work will be graded on the shark machines, so it is in your best interest to work there.
+                <li>For most labs, you may alternatively work on the Andrew Unix machines, which are nearly identical.
+                <li>However, you <em>must</em> complete bomblab and buflab on a shark machine.
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>Must I attend a particular recitation?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>You may attend any recitation you wish as long as the instructor leading the recitation allows it.
+                <li>Please make sure the recitation you normally attend is the one specified on your Autolab account; if this is not the case, email the staff list so that we can update your account.
+            </ul>
+        </p>
+    </li>
+
+   <li>
+        <b>I am working from a Windows machine. How do I connect to the Shark machines?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li>Use the Cisco VPN client if you are off-campus: <A HREF="https://www.cmu.edu/computing/software/all/cisco-anyconnect/index.html">Cisco VPN client</A>. There is a known issue with connection stability if you do not use the VPN client: your connection will randomly freeze or drop.
+                <li>Use the CMU recommended Windows SSH/SFTP client: <A HREF="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">Tectia SSH/SFTP </A>. If you need a lightweight SSH client you can use PuTTY instead: <A HREF="https://www.cmu.edu/computing/software/all/tectia/index.html">PuTTY</A>
+                <li>Avoid X-Windows (X-Term, XEmacs etc.) and the WIndows AFS client if you do not have experience with them. Instead open multiple Tectia SSH/SCP windows and use text-based editors on the Shark machine (<kbd>emacs</kbd>, <kbd>vim</kbd> or <kbd>nano</kbd>).
+                <li>There are other nice tools like a Windows AFS client (<A HREF="http://www.openafs.org/windows.html">OpenAFS</A>), X-Windows support (<A HREF="https://www.cmu.edu/computing/software/all/xwin/index.html">X-Win 32</A>) and the Linux-on-Windows port (<A HREF="https://cygwin.com/"><kbd>cygwin</kbd></A>. They are powerful tools in the hands of experts but often very painful to set up and can be the source of a lot of frustration and painful data loss when not used well. If you have no experience with them, leave the finger from them.
+            </ul>
+        </p>
+    </li>
+
+<h2><font color=red>Data Lab</font></h2>
+
+<li><b>My puzzles pass <kbd>btest</kbd> but I get errors when I submit to Autolab. What gives?</b>
+    <p class='answer'>
+      <ul class='list'>
+      <li> As we discussed in the writeup, Autolab uses
+      the <kbd>driver.pl</kbd> program to grade your
+      submission. The <kbd>driver.pl</kbd> program runs <kbd>dlc</kbd>
+      to check for operator violations
+      and <kbd>bddcheck/check.pl</kbd> to do exhaustive testing. There
+      are three reasons why <kbd>btest</kbd> may give different scores
+      than <kbd>driver.pl</kbd>:
+        <p>
+        <ul class='list'>
+
+        <li>Reason 1: <kbd>dlc</kbd> discovered that you used illegal
+        operators or too many operators.
+
+        <li>Reason 2: <kbd>btest</kbd> does not do exhaustive
+        testing. It is mostly useful for testing individual inputs on
+        invidivual puzzles. Use <kbd>bddcheck/check.pl</kbd> for final testing.
+
+        <li>Reason 3: <kbd>bddcheck/check.pl</kbd> is finicky about the code
+        formatting, especially the location of the first and last
+        braces in a function. The final right brace must be in the
+        first column.
+
+          </ul>
+        </ul>
+      The moral of the story: Before submitting to Autolab, do a
+      thorough test by running <kbd>dlc</kbd>, <kbd>bddcheck/check.pl</kbd>,
+      and <kbd>driver.pl</kbd> yourself on the shark machines.
+    </p>
+
+
+<h2><font color=red>Bomb Lab</font></h2>
+<li>
+<b>I am submitting a defusing string that contains an apostrophe and the Autolab backend silently explodes. What gives?</b>
+
+	<p class='answer'>
+        <ul class='list'>
+       <li> Please don't submit defusing strings that
+	contain apostrophes. There is a known bug in the backend
+	autograder that causes it to get confused by strings that
+	contain apostrophes. In each of these cases, there is an
+	alternate solution that doesn't contain apostrophes. </li>
+        </ul></p>
+
+</li>
+
+<li><b>How do I get to the secret phase?</b>
+	<p class='answer'>
+        <ul class='list'>
+          <li>What secret phase?</li>
+          </ul>
+        </p>
+</li>
+
+
+<h2><font color=red>Cache Lab</font></h2>
+<li>
+  <b>Why are warnings like "unused parameter" being reported as errors?</b>
+  <p class='answer'>
+    <ul class='list'>
+      <li> On some labs we have set flags (-Wall -Wextra) for the compiler to generate
+        more warnings than usual. We also set a flag (-Werror) to treat warnings as
+        errors.
+      <li> Any class of errors that can be detected by the compiler should be addressed
+        sooner rather than later.
+    </ul>
+  </p>
+</li>
+
+   <li>
+     <b>My csim.c works just like the reference one, but when I run test-csim
+       I get -1 for all the hits, misses and evicts! What's going wrong?</b>
+  <p class='answer'>
+    <ul class='list'>
+      <li>Your main function probably returns something other than 0.
+      <li>Our driver checks to make sure your simulator exited successfully,
+	and in C, a main function should return 0 if it exited successfully.
+    </ul>
+  </p>
+</li>
+
+<li>
+  <b>Why am I geting an error: implicit declaration of function 'getopt'? </b>
+  <p class='answer'>
+    <ul class='list'>
+      <li> Reason: you are missing some header files in your include list.
+      <li> Fix: Add this to your other includes:
+        <pre>
+          #include  &#060;getopt.h&#062;
+          #include  &#060;stdlib.h&#062;
+          #include  &#060;unistd.h&#062;
+        </pre>
+    </ul>
+  </p>
+</li>
+
+
+<h2><font color=red>Proxy Lab</font></h2>
+
+<li><b>Where do I find telnet on the shark machines?</b>
+    <p class='answer'>
+        <ul class='list'>
+            <li> <kbd>shark> /usr/bin/telnet</kbd>
+        </ul>
+    </p>
+
+<li><b>Does my proxy need to support POST requests?</b>
+	<p class='answer'>
+        <ul class='list'>
+            <li> No, it only needs to support GET requests.
+        </ul>
+    </p>
+
+<li><b>Why does my proxy seem unable to properly handle images or other non-text content?</b>
+    <p class='answer'>
+        <ul class='list'>
+            <li> You're probably reading the data with functions such as <kbd>getstr</kbd> or
+                 <kbd>rio_readlineb</kbd> that are designed for text. Random end-of-line characters in
+                 the binary data will cause these functions to terminate
+                 prematurely. Use <kbd>rio_readn</kbd> and <kbd>rio_readnb</kbd> instead.
+        </ul>
+    </p>
+
+    <li>
+        <b>Why am I getting all these sig* warnings in csapp.c?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li> You've probably added -std=c99 to your CFLAGS. Leave it out
+                     or set it to gnu99 instead.
+            </ul>
+        </p>
+    </li>
+
+    <li>
+        <b>What's the easiest way to get started testing my proxy?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li> Have two terminal windows open, ssh to the same shark, start your proxy in one:
+<pre>
+[myshark]$ ./proxy &#060;portnum&#062;
+</pre>
+and do the following in the other:
+<pre>
+[myshark]$ export http_proxy=myshark:&#060;portnum&#062;
+[myshark]$ wget -d www.cnn.com
+</pre>
+            Note that the "-d" option provides debugging info with exact request/response headers.
+            <li> For fine-grain debugging, you can send headers from wget output line by line with nc:
+<pre>
+[myshark]$ nc myshark &#060;portnum&#062;
+GET http://www.cnn.com/ HTTP/1.0
+...
+</pre>
+            </ul>
+        </p>
+    </li>
+    <li>
+        <b>I'm trying to test with nc. How do I generate \r\n?</b>
+        <p class='answer'>
+            <ul class='list'>
+                <li> At the end of the line press Ctrl^V then enter to generate \r. Another enter will generate \n.
+            </ul>
+        </p>
+    </li>
+
+
+
+
+
+
+<!----end of faqs------>
+</ul>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

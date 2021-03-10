@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>15-213 Intro to Computer Systems: Lab Machines</TITLE>
+<!-- Changed by: Frank Pfenning, 24-Jan-2007 -->
+<META name="description" content="Introduction to Computer Systems; Lab Machines">
+<META name="keywords" content="Introduction to Computer Systems">
+<LINK REL="stylesheet" HREF="course.css" TYPE="text/css">
+</HEAD>
+<BODY MARGINWIDTH=0 MARGINHEIGHT=0>
+<TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=10>
+<TR>
+<TD CLASS="sidebar">&nbsp;</TD>
+<TD CLASS="main">&nbsp;</TD>
+<TD CLASS="main">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="sidebar" VALIGN="top">
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>
+  <TR><TD CLASS="menu"><A HREF="index.html">Home</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="schedule.html">Schedule</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="assignments.html">Assignments</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="exams.html">Exams</A></TD></TR>
+  <TR><TD CLASS="menu"><B CLASS="here">Lab&nbsp;Machines</B></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="resources.html">Resources</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="codeStyle.html">Style Guideline</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="faq.html">FAQ</A></TD></TR>
+  <TR><TD>&nbsp;</TD></TR>
+  <TR><TD CLASS="menu"><A HREF="http://csapp.cs.cmu.edu/">Textbook</A></TD></TR>
+  <TR><TD CLASS="menu"><A HREF="https://autolab.cs.cmu.edu">Autolab</A></TD></TR>
+  <TR><TD>&nbsp;</TD></TR>
+  <TR><TD>&nbsp;</TD></TR>
+  <TR><TD CLASS="menu" ALIGN="left"></TD></TR>
+  <TR><TD CLASS="menu" ALIGN="left"></TD></TR>
+</TABLE>
+</TD>
+<TD CLASS="main">&nbsp;</TD>
+<TD CLASS="main" VALIGN="top">
+<h1>The Shark Machines</h1>
+
+<table width=800><tr><td> 
+
+You will be doing your Intro to Computer Systems (ICS) lab assignments
+on a cluster of rack-mounted Intel Nehalem-based servers called the
+<i>shark machines</i>. This cluster was donated by the Intel Labs
+Higher Education group for the ICS course.  The original 15-213
+cluster machines were known as the <i>fish machines</i>. Our new
+cluster systems are much bigger and faster, so it seems fitting to
+call them the shark machines.
+
+<p>
+<h3>Shark machines available to students</h3>
+<p>
+There are 10 machines available to students. They run the same
+RHEL 6.x operating system as the Andrew Linux cluster machines.  ICS
+students and teaching staff can login to them using their Andrew
+credentials. For example, if your Andrew ID is <kbd>bovik</kbd>, then
+you can login to a random shark machine:
+<p>
+<kbd>unix> ssh bovik@shark.ics.cs.cmu.edu</kbd>
+<p>
+or a specific machine:
+<p>
+<kbd>unix> ssh bovik@angelshark.ics.cs.cmu.edu</kbd>
+
+
+<table border=1 cellpadding=2>
+<tr>
+<td>angelshark.ics.cs.cmu.edu <td> bambooshark.ics.cs.cmu.edu <td>
+baskingshark.ics.cs.cmu.edu <td> blueshark.ics.cs.cmu.edu <td>
+carpetshark.ics.cs.cmu.edu </tr>
+
+<tr>
+<td>
+catshark.ics.cs.cmu.edu <td> hammerheadshark.ics.cs.cmu.edu <td>
+houndshark.ics.cs.cmu.edu <td> lemonshark.ics.cs.cmu.edu <td>
+makoshark.ics.cs.cmu.edu </tr> 
+
+</table>
+
+<!--
+<p>
+<h3>Shark machines available to teaching staff only</h3>
+
+<p>
+<kbd>Greatwhite.ics.cs.cmu.edu</kbd> is the Autolab server.  Teaching
+staff can login to it using their Andrew credentials.  There are also
+10 servers that Autolab uses to autograde student handins. Each
+autograding job is performed on a RHEL 6.1 virtual machine managed by the Apache <a
+href="http://incubator.apache.org/tashi/index.html">Tashi</a> system,
+which was developed by <a
+href="http://www.pittsburgh.intel-research.net">Intel Labs
+Pittsburgh</a> and the Carnegie Mellon <a
+href="http://www.pdl.cmu.edu">Parallel Data Lab</a>.
+
+<table border=1 cellpadding=2>
+<tr>
+<td>greatwhite.ics.cs.cmu.edu
+</tr>
+
+<tr>
+<td>megamouth.ics.cs.cmu.edu
+<td>milkshark.ics.cs.cmu.edu
+<td>nurseshark.ics.cs.cmu.edu
+<td>pygmyshark.ics.cs.cmu.edu
+<td>reefshark.ics.cs.cmu.edu
+</tr>
+<tr>
+<td>rivershark.ics.cs.cmu.edu
+<td>roughshark.ics.cs.cmu.edu
+<td>sandshark.ics.cs.cmu.edu
+<td>sawshark.ics.cs.cmu.edu
+<td>tigershark.ics.cs.cmu.edu
+</tr>
+</table>
+-->
+
+<h3>Frequently Asked Questions</h3>
+<b>Q:</b> How do I get an account on a shark machine?<br> 
+<b>A:</b> Accounts are created for you automatically.
+If you can't login, please send mail to the course staff at <a href="mailto:15-213-staff@cs.cmu.edu">15-213-staff@cs.cmu.edu</a>.
+
+<h3>Help with the CMU computing environment</h3>
+
+If you are new to CMU, here are some links to help you get started:
+
+<ul>
+<li><a href="http://www.cmu.edu/computing/index.html">Computing Services overview</a>
+<li><a href="http://www.cmu.edu/computing/accounts/afs-storage/afs-unix/index.html">Andrew File System (AFS)</a>
+<li><a href="http://www.cmu.edu/computing/clusters/software/timeshares.html">Andrew Linux cluster machines</a>
+<li><a href="http://www.cmu.edu/computing/accounts/afs-storage/afs-unix/commands.html">Linux commands</a>
+<li><a href="http://www.cmu.edu/computing/repair/help-center.html">Help Center</a>
+</ul>
+
+<h3>Shark machine technical specs</h3>
+<ul>
+<li>Head node (greatwhite)
+<ul>
+<li>Dell R710 with 2 x Intel E5620 CPUs, 2.67 GHz peak, 
+32 GB DRAM, 8 Nehalem cores, 8 TB SATA RAID.
+<li>64-bit Enterprise Red Hat (Linux kernel 2.6.18)
+</ul>
+<li>20 Compute nodes (autograding servers and student machines):
+<ul>
+<li>Dell R410, 2x Intel E5520 CPUS, 2.67 GHz peak, 
+24 GB DRAM, 8 Nehalem cores, 160 GB SATA disk
+<li>Student machines: 
+64-bit Enterprise Red Hat (Linux kernel 2.6.18) 
+<li>Autograding servers: 
+Ubuntu Linux running Ubuntu virtual machines managed by Tashi
+</ul>
+<li>Nehalem processor cores:
+<ul>
+<li>2-way hyperthreading
+<li>L1 d-cache: 32 KB, 8-way associative (per core)
+<li>L1 i-cache: 32 KB, 8-way associative (per core)
+<li>L2 unified cache: 256 KB, 8-way associative (per core)
+<li>L3 cache: 8 MB, 16-way associative (shared by all cores)
+<li>64-byte block size for L1, L2, and L3
+<li>L1 d-TLB: 64 entries, 4-way associative (per core)
+<li>L1 i-TLB: 128 entries, 4-way associative (per core)
+<li>L2 unified TLB: 512 entries, 4-way associative
+<li>DDR3 on-chip memory controller
+</ul>
+</ul>
+</td></tr></table>
+
+
+
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
